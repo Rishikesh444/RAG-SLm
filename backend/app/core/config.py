@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     """
     APP_NAME: str = "Intelligent Document Research Assistant"
     DEBUG: bool = True
+    CORS_ORIGINS: str = "*"
     
     # LLM Settings
     LLM_PROVIDER: str = "gemini"  # "gemini" or "openai"
